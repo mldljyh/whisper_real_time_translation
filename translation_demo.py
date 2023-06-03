@@ -165,7 +165,7 @@ def main():
                     transcription.append(text)
                 else:
                     transcription[-1] = text
-                last_four_elements = transcription[-4:]
+                last_four_elements = transcription[-10:]
                 result = ''.join(last_four_elements)    
                 sentences = sent_tokenize(result)
                 window.update_text(sentences, translation_lang)
