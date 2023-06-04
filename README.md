@@ -12,8 +12,6 @@ To install the dependencies, simply run:
 pip install -r requirements.txt
 ```
 
-Faster-Whisper also requires the command-line tool [`ffmpeg`](https://ffmpeg.org/) to be installed on your system, which is available from most package managers.
-
 ## Usage
 
 Run the `translation_demo.py` script with the desired arguments to start the real-time transcription and translation. Example command and arguments can be found in the file.
