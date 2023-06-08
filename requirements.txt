@@ -4,5 +4,5 @@ SpeechRecognition
 torch
 faster-whisper
 translatepy
-tkinter
+tk
 nltk
